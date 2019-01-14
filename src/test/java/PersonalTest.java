@@ -21,7 +21,7 @@ public class PersonalTest {
     @Before
     public void setup() {
         System.getProperty("java.classpath");
-        System.setProperty("webdriver.chrome.driver", "D:\\Projects\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/home/user/Programs/chromedriver");
         driver = new ChromeDriver();
         loginPage = new LoginPage(driver);
         logoutPage = new LogoutPage(driver);
